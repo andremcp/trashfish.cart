@@ -1,0 +1,15 @@
+/* 
+    Document   : global
+    Created on : Jun 7, 2013, 9:04:01 AM
+    Author     : Sopar Sihotang
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Add these styles once per website */
+  .popup_background {z-index: 2000; /* any number */background: #fff;}
+  .popup_wrapper {z-index: 2001; /* any number + 1 */}
+  /* Add inline-block support for IE7 */
+  .popup_align, .popup_content {*display: inline; *zoom: 1;background: #fff;}
+  
+  
